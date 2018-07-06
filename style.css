@@ -2,24 +2,107 @@
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+
 }
 .childOne{
   width: 30%;
   padding: 2%;
   border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #ddd;
+  align-items: center;
+  margin:1%;
+background-color: lightgreen;  
+}
+.childTwo
+{
+  width: 50%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin:2%;
+}
+img{
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*for small screen mobiles*/
+
+@media only screen and (min-width: 320px) and (max-width:480px){
+.parent{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.childOne{
+  width: 50%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #ddd;
+  align-items: center;
   margin:2%;
 }
 .childTwo
 {
   width: 50%;
-  padding: 3%;
+  padding: 2%;
   border: 1px solid #ddd;
   margin:2%;
 }
-img{
-  width: 20%;
-  height: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h2{
+  text-align: center;
+}
+}
+/* for tablet view*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+.parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.childOne{
+  width: 50%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #ddd;
+  align-items: center;
+  margin:2%;
+}
+.childTwo
+{
+  width: 50%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin:2%;
+}
+h2{
+  text-align: center;
+}
+}
+/* desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+.parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.childOne{
+  width: 50%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #ddd;
+  align-items: center;
+  margin:2%;
+}
+.childTwo
+{
+  width: 50%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin:2%;
+}
+h2{
+  text-align: center;
+}
 }
