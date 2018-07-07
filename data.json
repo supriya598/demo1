@@ -3,5 +3,47 @@
 		"name": "SURPIYA SADHU",
 		"email": "lalithasupriya3011999@gmail.com",
 		"label": "student"
-	}
+	},
+"career":{
+		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+	},
+
+"education":[
+{
+"degree":"B-TECH(COMPUTER SCIENCE ENINEERING)",
+"institute":"PVP SIDDHARTHA INSTITUTE OF TECHNOLOGY",
+"data":["2016-2020","90%"]	
+},
+{
+	"degree":"INTERMEDIATE(M.P.C)",
+"institute":"SRI CHAITANYA EDUCATIONAL INSTITUTIONS",
+"data":["2014-2016","98%"]	
+
+},
+{
+	"degree":"TENTH(S.S.C)",
+"institute":"RAVINDRA BHARATHI PUBLIC SCHOOL",
+"data":["2014","97%"]	
+}
+
+],
+"skills":[
+{
+	"title":"languages",
+	"content":["c","python","java","c#","c++","PHP","R"]
+},
+{
+	"title":"databases",
+	"content":["mysql","Mongodb"]
+
+},
+{
+	"title":"web technologies",
+	"content":["html","php","javascript","css"]
+},
+{
+	"title":"frameworks",
+	"content":["codeIgniter","Django"]
+}
+]
 }
